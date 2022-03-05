@@ -11,6 +11,6 @@ while (choice < 4):
     elif choice == 2:
         exec(open("task2.py").read())
     elif choice == 3:
-        exec(("task3.py").read())
+        exec(open("task3.py").read())
     elif choice == 4:
         exit()
